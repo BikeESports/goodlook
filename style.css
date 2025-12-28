@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #111;
+}
+
+/* Header */
+.header {
+    background: #000;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background: #fff;
+    color: #000;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background: #e0e0e0;
+}
+
+/* Sections */
+.section {
+    padding: 70px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.rating {
+    font-weight: bold;
+}
+
+.dark {
+    background: #000;
+    color: #fff;
+}
+
+/* Horarios */
+.horarios {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.horarios li {
+    margin-bottom: 8px;
+}
+
+.nota {
+    margin-top: 15px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+/* Contacto */
+.redes {
+    margin: 20px 0;
+}
+
+.redes a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    text-decoration: underline;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin-top: 30px;
+}
+
+/* Footer */
+.footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .nav {
+        display: none;
+    }
+}
