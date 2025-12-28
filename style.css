@@ -95,11 +95,16 @@ body {
     margin-bottom: 20px;
 }
 
-/* SECCIONES CON FONDO */
+/* SECCIONES CON FONDO (CORREGIDAS) */
 .section-bg {
+    position: relative;
+    min-height: 80vh;
     background-size: cover;
     background-position: center;
-    padding: 120px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
     text-align: center;
 }
 
@@ -111,16 +116,24 @@ body {
     background-image: url("img/contacto.jpg");
 }
 
+/* OVERLAY CORRECTO */
 .overlay {
     background: rgba(0,0,0,0.65);
     max-width: 900px;
-    margin: auto;
-    padding: 60px 20px;
+    width: 100%;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.overlay h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    margin-bottom: 25px;
 }
 
 .overlay p {
     font-size: 18px;
-    margin: 10px 0;
+    margin: 12px 0;
 }
 
 .overlay a {
@@ -128,8 +141,9 @@ body {
     text-decoration: underline;
 }
 
+/* REDES */
 .redes {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .redes a {
