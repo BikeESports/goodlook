@@ -21,7 +21,20 @@ body {
     align-items: center;
 }
 
+/* LOGO + TEXTO */
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+.logo span {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
     font-weight: 600;
@@ -136,7 +149,7 @@ body {
     width: 100%;
     padding: 60px 30px;
     text-align: center;
-    background: none; /* IMPORTANTE */
+    background: none;
 }
 
 /* TEXTO OVERLAY */
