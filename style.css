@@ -109,7 +109,7 @@ body {
 }
 
 .horarios-bg {
-    background-image: url("img/horarios.jpg");
+    background-image: url("img/fondohorarios.jpg");
 }
 
 .contacto-bg {
@@ -123,6 +123,11 @@ body {
     width: 100%;
     padding: 60px 30px;
     text-align: center;
+}
+
+/* OSCURIDAD SUAVE SOLO PARA HORARIOS */
+.horarios-bg .overlay {
+    background: rgba(0,0,0,0.6);
 }
 
 .overlay h2 {
